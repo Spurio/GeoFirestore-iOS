@@ -42,10 +42,10 @@ An alternative to the GeoFire library provided by Firebase, but compatible with 
   s.frameworks = 'CoreLocation'
   
   s.static_framework = true
-  
-  s.dependency 'Firebase', '~> 5.4'
-  s.dependency 'GeoFire', '~> 3.0'
-  s.dependency 'FirebaseCore', '~> 5.0'
+
+  s.dependency 'GeoFire', '~> 3.0.0'
+  s.dependency 'FirebaseCore'
   s.dependency 'FirebaseFirestore', '~> 1.0'
+  s.dependency "Firebase/Database", '~> 6.0'
 
 end
